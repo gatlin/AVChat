@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E4936B9123A151C00B053E0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4936B8123A151C00B053E0 /* libxml2.dylib */; };
+		5E545D1C1239CD1B0003317F /* libglib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E545D1B1239CD1B0003317F /* libglib.framework */; };
+		5E545D201239CD250003317F /* libglib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E545D1B1239CD1B0003317F /* libglib.framework */; };
+		5E545DB61239CDA90003317F /* libintl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E545DB51239CDA90003317F /* libintl.framework */; };
+		5E545DB91239CDB10003317F /* libintl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E545DB51239CDA90003317F /* libintl.framework */; };
+		5E78AA971239D91F00C5BD0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E78AA961239D91F00C5BD0A /* MainMenu.xib */; };
+		5E78AAAF1239D9C300C5BD0A /* AIMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AA9B1239D9C300C5BD0A /* AIMedia.m */; };
+		5E78AAB01239D9C300C5BD0A /* AIMediaBusContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AA9D1239D9C300C5BD0A /* AIMediaBusContext.m */; };
+		5E78AAB11239D9C300C5BD0A /* AIMediaBusMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AA9F1239D9C300C5BD0A /* AIMediaBusMessage.m */; };
+		5E78AAB21239D9C300C5BD0A /* AIMediaBusSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAA11239D9C300C5BD0A /* AIMediaBusSource.m */; };
+		5E78AAB31239D9C300C5BD0A /* AIMediaSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAA31239D9C300C5BD0A /* AIMediaSession.m */; };
+		5E78AAB41239D9C300C5BD0A /* AISoundLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAA51239D9C300C5BD0A /* AISoundLevel.m */; };
+		5E78AAB51239D9C300C5BD0A /* AIVoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAA71239D9C300C5BD0A /* AIVoiceController.m */; };
+		5E78AAB61239D9C300C5BD0A /* oscar-adium.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAA81239D9C300C5BD0A /* oscar-adium.c */; };
+		5E78AAB71239D9C300C5BD0A /* ssl-cdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAAA1239D9C300C5BD0A /* ssl-cdsa.c */; };
+		5E78AAB81239D9C300C5BD0A /* ssl-openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAAB1239D9C300C5BD0A /* ssl-openssl.c */; };
+		5E78AAB91239D9C300C5BD0A /* ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAAC1239D9C300C5BD0A /* ssl.c */; };
+		5E78AABA1239D9C300C5BD0A /* VVPurpleInitRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78AAAE1239D9C300C5BD0A /* VVPurpleInitRun.m */; };
+		5E78AACD1239DA1C00C5BD0A /* libgmodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AACC1239DA1C00C5BD0A /* libgmodule.framework */; };
+		5E78AACF1239DA1C00C5BD0A /* libgobject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AACE1239DA1C00C5BD0A /* libgobject.framework */; };
+		5E78AAD11239DA1C00C5BD0A /* libgstapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAD01239DA1C00C5BD0A /* libgstapp.framework */; };
+		5E78AAD31239DA1C00C5BD0A /* libgstaudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAD21239DA1C00C5BD0A /* libgstaudio.framework */; };
+		5E78AAD51239DA1C00C5BD0A /* libgstbase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAD41239DA1C00C5BD0A /* libgstbase.framework */; };
+		5E78AAD71239DA1C00C5BD0A /* libgstcontroller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAD61239DA1C00C5BD0A /* libgstcontroller.framework */; };
+		5E78AAD91239DA1C00C5BD0A /* libgstdataprotocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAD81239DA1C00C5BD0A /* libgstdataprotocol.framework */; };
+		5E78AADB1239DA1C00C5BD0A /* libgstfarsight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AADA1239DA1C00C5BD0A /* libgstfarsight.framework */; };
+		5E78AADD1239DA1C00C5BD0A /* libgstinterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AADC1239DA1C00C5BD0A /* libgstinterfaces.framework */; };
+		5E78AADF1239DA1C00C5BD0A /* libgstnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AADE1239DA1C00C5BD0A /* libgstnet.framework */; };
+		5E78AAE11239DA1C00C5BD0A /* libgstnetbuffer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAE01239DA1C00C5BD0A /* libgstnetbuffer.framework */; };
+		5E78AAE31239DA1C00C5BD0A /* libgstreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAE21239DA1C00C5BD0A /* libgstreamer.framework */; };
+		5E78AAE51239DA1C00C5BD0A /* libgstrtp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAE41239DA1C00C5BD0A /* libgstrtp.framework */; };
+		5E78AAE71239DA1C00C5BD0A /* libgstrtsp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAE61239DA1C00C5BD0A /* libgstrtsp.framework */; };
+		5E78AAE91239DA1C00C5BD0A /* libgstsdp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAE81239DA1C00C5BD0A /* libgstsdp.framework */; };
+		5E78AAEB1239DA1C00C5BD0A /* libgsttag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAEA1239DA1C00C5BD0A /* libgsttag.framework */; };
+		5E78AAED1239DA1C00C5BD0A /* libgstvideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAEC1239DA1C00C5BD0A /* libgstvideo.framework */; };
+		5E78AAEF1239DA1C00C5BD0A /* libgthread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAEE1239DA1C00C5BD0A /* libgthread.framework */; };
+		5E78AAF11239DA1C00C5BD0A /* libjson-glib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAF01239DA1C00C5BD0A /* libjson-glib.framework */; };
+		5E78AAF31239DA1C00C5BD0A /* libmeanwhile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAF21239DA1C00C5BD0A /* libmeanwhile.framework */; };
+		5E78AAF51239DA1C00C5BD0A /* libnice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAF41239DA1C00C5BD0A /* libnice.framework */; };
+		5E78AAF71239DA1D00C5BD0A /* liboil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAF61239DA1D00C5BD0A /* liboil.framework */; };
+		5E78AAF91239DA1D00C5BD0A /* libotr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAF81239DA1D00C5BD0A /* libotr.framework */; };
+		5E78AAFB1239DA1D00C5BD0A /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AAFA1239DA1D00C5BD0A /* libpurple.framework */; };
+		5E78ACA21239DA2A00C5BD0A /* libgmodule.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AACC1239DA1C00C5BD0A /* libgmodule.framework */; };
+		5E78ACA31239DA2A00C5BD0A /* libgobject.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AACE1239DA1C00C5BD0A /* libgobject.framework */; };
+		5E78ACA41239DA2A00C5BD0A /* libgstapp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAD01239DA1C00C5BD0A /* libgstapp.framework */; };
+		5E78ACA51239DA2A00C5BD0A /* libgstaudio.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAD21239DA1C00C5BD0A /* libgstaudio.framework */; };
+		5E78ACA61239DA2A00C5BD0A /* libgstbase.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAD41239DA1C00C5BD0A /* libgstbase.framework */; };
+		5E78ACA71239DA2A00C5BD0A /* libgstcontroller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAD61239DA1C00C5BD0A /* libgstcontroller.framework */; };
+		5E78ACA81239DA2A00C5BD0A /* libgstdataprotocol.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAD81239DA1C00C5BD0A /* libgstdataprotocol.framework */; };
+		5E78ACA91239DA2A00C5BD0A /* libgstfarsight.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AADA1239DA1C00C5BD0A /* libgstfarsight.framework */; };
+		5E78ACAA1239DA2A00C5BD0A /* libgstinterfaces.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AADC1239DA1C00C5BD0A /* libgstinterfaces.framework */; };
+		5E78ACAB1239DA2A00C5BD0A /* libgstnet.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AADE1239DA1C00C5BD0A /* libgstnet.framework */; };
+		5E78ACAC1239DA2A00C5BD0A /* libgstnetbuffer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAE01239DA1C00C5BD0A /* libgstnetbuffer.framework */; };
+		5E78ACAD1239DA2A00C5BD0A /* libgstreamer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAE21239DA1C00C5BD0A /* libgstreamer.framework */; };
+		5E78ACAE1239DA2A00C5BD0A /* libgstrtp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAE41239DA1C00C5BD0A /* libgstrtp.framework */; };
+		5E78ACAF1239DA2A00C5BD0A /* libgstrtsp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAE61239DA1C00C5BD0A /* libgstrtsp.framework */; };
+		5E78ACB01239DA2A00C5BD0A /* libgstsdp.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAE81239DA1C00C5BD0A /* libgstsdp.framework */; };
+		5E78ACB11239DA2A00C5BD0A /* libgsttag.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAEA1239DA1C00C5BD0A /* libgsttag.framework */; };
+		5E78ACB21239DA2A00C5BD0A /* libgstvideo.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAEC1239DA1C00C5BD0A /* libgstvideo.framework */; };
+		5E78ACB31239DA2A00C5BD0A /* libgthread.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAEE1239DA1C00C5BD0A /* libgthread.framework */; };
+		5E78ACB41239DA2A00C5BD0A /* libjson-glib.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAF01239DA1C00C5BD0A /* libjson-glib.framework */; };
+		5E78ACB51239DA2A00C5BD0A /* libmeanwhile.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAF21239DA1C00C5BD0A /* libmeanwhile.framework */; };
+		5E78ACB61239DA2A00C5BD0A /* libnice.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAF41239DA1C00C5BD0A /* libnice.framework */; };
+		5E78ACB71239DA2A00C5BD0A /* liboil.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAF61239DA1D00C5BD0A /* liboil.framework */; };
+		5E78ACB81239DA2A00C5BD0A /* libotr.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAF81239DA1D00C5BD0A /* libotr.framework */; };
+		5E78ACB91239DA2A00C5BD0A /* libpurple.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AAFA1239DA1D00C5BD0A /* libpurple.framework */; };
+		5E78AD0E1239DCCF00C5BD0A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AD0D1239DCCF00C5BD0A /* QTKit.framework */; };
+		5E78AD511239DD4A00C5BD0A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AD501239DD4A00C5BD0A /* Security.framework */; };
+		5E78AD531239DD4A00C5BD0A /* SecurityFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AD521239DD4A00C5BD0A /* SecurityFoundation.framework */; };
+		5E78AD551239DD4A00C5BD0A /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AD541239DD4A00C5BD0A /* SecurityInterface.framework */; };
+		5E78AD601239DD9100C5BD0A /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E78AD5F1239DD9100C5BD0A /* libssl.dylib */; };
+		5E78ADA71239DE0D00C5BD0A /* libssl.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E78AD5F1239DD9100C5BD0A /* libssl.dylib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E545D1D1239CD1B0003317F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5E78ADA71239DE0D00C5BD0A /* libssl.dylib in CopyFiles */,
+				5E78ACA21239DA2A00C5BD0A /* libgmodule.framework in CopyFiles */,
+				5E78ACA31239DA2A00C5BD0A /* libgobject.framework in CopyFiles */,
+				5E78ACA41239DA2A00C5BD0A /* libgstapp.framework in CopyFiles */,
+				5E78ACA51239DA2A00C5BD0A /* libgstaudio.framework in CopyFiles */,
+				5E78ACA61239DA2A00C5BD0A /* libgstbase.framework in CopyFiles */,
+				5E78ACA71239DA2A00C5BD0A /* libgstcontroller.framework in CopyFiles */,
+				5E78ACA81239DA2A00C5BD0A /* libgstdataprotocol.framework in CopyFiles */,
+				5E78ACA91239DA2A00C5BD0A /* libgstfarsight.framework in CopyFiles */,
+				5E78ACAA1239DA2A00C5BD0A /* libgstinterfaces.framework in CopyFiles */,
+				5E78ACAB1239DA2A00C5BD0A /* libgstnet.framework in CopyFiles */,
+				5E78ACAC1239DA2A00C5BD0A /* libgstnetbuffer.framework in CopyFiles */,
+				5E78ACAD1239DA2A00C5BD0A /* libgstreamer.framework in CopyFiles */,
+				5E78ACAE1239DA2A00C5BD0A /* libgstrtp.framework in CopyFiles */,
+				5E78ACAF1239DA2A00C5BD0A /* libgstrtsp.framework in CopyFiles */,
+				5E78ACB01239DA2A00C5BD0A /* libgstsdp.framework in CopyFiles */,
+				5E78ACB11239DA2A00C5BD0A /* libgsttag.framework in CopyFiles */,
+				5E78ACB21239DA2A00C5BD0A /* libgstvideo.framework in CopyFiles */,
+				5E78ACB31239DA2A00C5BD0A /* libgthread.framework in CopyFiles */,
+				5E78ACB41239DA2A00C5BD0A /* libjson-glib.framework in CopyFiles */,
+				5E78ACB51239DA2A00C5BD0A /* libmeanwhile.framework in CopyFiles */,
+				5E78ACB61239DA2A00C5BD0A /* libnice.framework in CopyFiles */,
+				5E78ACB71239DA2A00C5BD0A /* liboil.framework in CopyFiles */,
+				5E78ACB81239DA2A00C5BD0A /* libotr.framework in CopyFiles */,
+				5E78ACB91239DA2A00C5BD0A /* libpurple.framework in CopyFiles */,
+				5E545DB91239CDB10003317F /* libintl.framework in CopyFiles */,
+				5E545D201239CD250003317F /* libglib.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5E4936B8123A151C00B053E0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5E545D1B1239CD1B0003317F /* libglib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libglib.framework; path = Frameworks/libglib.framework; sourceTree = "<group>"; };
+		5E545DB51239CDA90003317F /* libintl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libintl.framework; path = Frameworks/libintl.framework; sourceTree = "<group>"; };
+		5E78AA961239D91F00C5BD0A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		5E78AA9A1239D9C300C5BD0A /* AIMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMedia.h; sourceTree = "<group>"; };
+		5E78AA9B1239D9C300C5BD0A /* AIMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMedia.m; sourceTree = "<group>"; };
+		5E78AA9C1239D9C300C5BD0A /* AIMediaBusContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMediaBusContext.h; sourceTree = "<group>"; };
+		5E78AA9D1239D9C300C5BD0A /* AIMediaBusContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMediaBusContext.m; sourceTree = "<group>"; };
+		5E78AA9E1239D9C300C5BD0A /* AIMediaBusMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMediaBusMessage.h; sourceTree = "<group>"; };
+		5E78AA9F1239D9C300C5BD0A /* AIMediaBusMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMediaBusMessage.m; sourceTree = "<group>"; };
+		5E78AAA01239D9C300C5BD0A /* AIMediaBusSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMediaBusSource.h; sourceTree = "<group>"; };
+		5E78AAA11239D9C300C5BD0A /* AIMediaBusSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMediaBusSource.m; sourceTree = "<group>"; };
+		5E78AAA21239D9C300C5BD0A /* AIMediaSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMediaSession.h; sourceTree = "<group>"; };
+		5E78AAA31239D9C300C5BD0A /* AIMediaSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMediaSession.m; sourceTree = "<group>"; };
+		5E78AAA41239D9C300C5BD0A /* AISoundLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISoundLevel.h; sourceTree = "<group>"; };
+		5E78AAA51239D9C300C5BD0A /* AISoundLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISoundLevel.m; sourceTree = "<group>"; };
+		5E78AAA61239D9C300C5BD0A /* AIVoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIVoiceController.h; sourceTree = "<group>"; };
+		5E78AAA71239D9C300C5BD0A /* AIVoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIVoiceController.m; sourceTree = "<group>"; };
+		5E78AAA81239D9C300C5BD0A /* oscar-adium.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "oscar-adium.c"; sourceTree = "<group>"; };
+		5E78AAA91239D9C300C5BD0A /* oscar-adium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "oscar-adium.h"; sourceTree = "<group>"; };
+		5E78AAAA1239D9C300C5BD0A /* ssl-cdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ssl-cdsa.c"; sourceTree = "<group>"; };
+		5E78AAAB1239D9C300C5BD0A /* ssl-openssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ssl-openssl.c"; sourceTree = "<group>"; };
+		5E78AAAC1239D9C300C5BD0A /* ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl.c; sourceTree = "<group>"; };
+		5E78AAAD1239D9C300C5BD0A /* VVPurpleInitRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPurpleInitRun.h; sourceTree = "<group>"; };
+		5E78AAAE1239D9C300C5BD0A /* VVPurpleInitRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPurpleInitRun.m; sourceTree = "<group>"; };
+		5E78AACC1239DA1C00C5BD0A /* libgmodule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgmodule.framework; path = Frameworks/libgmodule.framework; sourceTree = "<group>"; };
+		5E78AACE1239DA1C00C5BD0A /* libgobject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgobject.framework; path = Frameworks/libgobject.framework; sourceTree = "<group>"; };
+		5E78AAD01239DA1C00C5BD0A /* libgstapp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstapp.framework; path = Frameworks/libgstapp.framework; sourceTree = "<group>"; };
+		5E78AAD21239DA1C00C5BD0A /* libgstaudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstaudio.framework; path = Frameworks/libgstaudio.framework; sourceTree = "<group>"; };
+		5E78AAD41239DA1C00C5BD0A /* libgstbase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstbase.framework; path = Frameworks/libgstbase.framework; sourceTree = "<group>"; };
+		5E78AAD61239DA1C00C5BD0A /* libgstcontroller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstcontroller.framework; path = Frameworks/libgstcontroller.framework; sourceTree = "<group>"; };
+		5E78AAD81239DA1C00C5BD0A /* libgstdataprotocol.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstdataprotocol.framework; path = Frameworks/libgstdataprotocol.framework; sourceTree = "<group>"; };
+		5E78AADA1239DA1C00C5BD0A /* libgstfarsight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstfarsight.framework; path = Frameworks/libgstfarsight.framework; sourceTree = "<group>"; };
+		5E78AADC1239DA1C00C5BD0A /* libgstinterfaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstinterfaces.framework; path = Frameworks/libgstinterfaces.framework; sourceTree = "<group>"; };
+		5E78AADE1239DA1C00C5BD0A /* libgstnet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstnet.framework; path = Frameworks/libgstnet.framework; sourceTree = "<group>"; };
+		5E78AAE01239DA1C00C5BD0A /* libgstnetbuffer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstnetbuffer.framework; path = Frameworks/libgstnetbuffer.framework; sourceTree = "<group>"; };
+		5E78AAE21239DA1C00C5BD0A /* libgstreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstreamer.framework; path = Frameworks/libgstreamer.framework; sourceTree = "<group>"; };
+		5E78AAE41239DA1C00C5BD0A /* libgstrtp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstrtp.framework; path = Frameworks/libgstrtp.framework; sourceTree = "<group>"; };
+		5E78AAE61239DA1C00C5BD0A /* libgstrtsp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstrtsp.framework; path = Frameworks/libgstrtsp.framework; sourceTree = "<group>"; };
+		5E78AAE81239DA1C00C5BD0A /* libgstsdp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstsdp.framework; path = Frameworks/libgstsdp.framework; sourceTree = "<group>"; };
+		5E78AAEA1239DA1C00C5BD0A /* libgsttag.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgsttag.framework; path = Frameworks/libgsttag.framework; sourceTree = "<group>"; };
+		5E78AAEC1239DA1C00C5BD0A /* libgstvideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgstvideo.framework; path = Frameworks/libgstvideo.framework; sourceTree = "<group>"; };
+		5E78AAEE1239DA1C00C5BD0A /* libgthread.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgthread.framework; path = Frameworks/libgthread.framework; sourceTree = "<group>"; };
+		5E78AAF01239DA1C00C5BD0A /* libjson-glib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "libjson-glib.framework"; path = "Frameworks/libjson-glib.framework"; sourceTree = "<group>"; };
+		5E78AAF21239DA1C00C5BD0A /* libmeanwhile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libmeanwhile.framework; path = Frameworks/libmeanwhile.framework; sourceTree = "<group>"; };
+		5E78AAF41239DA1C00C5BD0A /* libnice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libnice.framework; path = Frameworks/libnice.framework; sourceTree = "<group>"; };
+		5E78AAF61239DA1D00C5BD0A /* liboil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = liboil.framework; path = Frameworks/liboil.framework; sourceTree = "<group>"; };
+		5E78AAF81239DA1D00C5BD0A /* libotr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libotr.framework; path = Frameworks/libotr.framework; sourceTree = "<group>"; };
+		5E78AAFA1239DA1D00C5BD0A /* libpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpurple.framework; path = Frameworks/libpurple.framework; sourceTree = "<group>"; };
+		5E78AD0D1239DCCF00C5BD0A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		5E78AD501239DD4A00C5BD0A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5E78AD521239DD4A00C5BD0A /* SecurityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityFoundation.framework; path = System/Library/Frameworks/SecurityFoundation.framework; sourceTree = SDKROOT; };
+		5E78AD541239DD4A00C5BD0A /* SecurityInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityInterface.framework; path = System/Library/Frameworks/SecurityInterface.framework; sourceTree = SDKROOT; };
+		5E78AD5F1239DD9100C5BD0A /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* TestApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				5E545D1C1239CD1B0003317F /* libglib.framework in Frameworks */,
+				5E545DB61239CDA90003317F /* libintl.framework in Frameworks */,
+				5E78AACD1239DA1C00C5BD0A /* libgmodule.framework in Frameworks */,
+				5E78AACF1239DA1C00C5BD0A /* libgobject.framework in Frameworks */,
+				5E78AAD11239DA1C00C5BD0A /* libgstapp.framework in Frameworks */,
+				5E78AAD31239DA1C00C5BD0A /* libgstaudio.framework in Frameworks */,
+				5E78AAD51239DA1C00C5BD0A /* libgstbase.framework in Frameworks */,
+				5E78AAD71239DA1C00C5BD0A /* libgstcontroller.framework in Frameworks */,
+				5E78AAD91239DA1C00C5BD0A /* libgstdataprotocol.framework in Frameworks */,
+				5E78AADB1239DA1C00C5BD0A /* libgstfarsight.framework in Frameworks */,
+				5E78AADD1239DA1C00C5BD0A /* libgstinterfaces.framework in Frameworks */,
+				5E78AADF1239DA1C00C5BD0A /* libgstnet.framework in Frameworks */,
+				5E78AAE11239DA1C00C5BD0A /* libgstnetbuffer.framework in Frameworks */,
+				5E78AAE31239DA1C00C5BD0A /* libgstreamer.framework in Frameworks */,
+				5E78AAE51239DA1C00C5BD0A /* libgstrtp.framework in Frameworks */,
+				5E78AAE71239DA1C00C5BD0A /* libgstrtsp.framework in Frameworks */,
+				5E78AAE91239DA1C00C5BD0A /* libgstsdp.framework in Frameworks */,
+				5E78AAEB1239DA1C00C5BD0A /* libgsttag.framework in Frameworks */,
+				5E78AAED1239DA1C00C5BD0A /* libgstvideo.framework in Frameworks */,
+				5E78AAEF1239DA1C00C5BD0A /* libgthread.framework in Frameworks */,
+				5E78AAF11239DA1C00C5BD0A /* libjson-glib.framework in Frameworks */,
+				5E78AAF31239DA1C00C5BD0A /* libmeanwhile.framework in Frameworks */,
+				5E78AAF51239DA1C00C5BD0A /* libnice.framework in Frameworks */,
+				5E78AAF71239DA1D00C5BD0A /* liboil.framework in Frameworks */,
+				5E78AAF91239DA1D00C5BD0A /* libotr.framework in Frameworks */,
+				5E78AAFB1239DA1D00C5BD0A /* libpurple.framework in Frameworks */,
+				5E78AD0E1239DCCF00C5BD0A /* QTKit.framework in Frameworks */,
+				5E78AD511239DD4A00C5BD0A /* Security.framework in Frameworks */,
+				5E78AD531239DD4A00C5BD0A /* SecurityFoundation.framework in Frameworks */,
+				5E78AD551239DD4A00C5BD0A /* SecurityInterface.framework in Frameworks */,
+				5E78AD601239DD9100C5BD0A /* libssl.dylib in Frameworks */,
+				5E4936B9123A151C00B053E0 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E78AA9A1239D9C300C5BD0A /* AIMedia.h */,
+				5E78AA9B1239D9C300C5BD0A /* AIMedia.m */,
+				5E78AA9C1239D9C300C5BD0A /* AIMediaBusContext.h */,
+				5E78AA9D1239D9C300C5BD0A /* AIMediaBusContext.m */,
+				5E78AA9E1239D9C300C5BD0A /* AIMediaBusMessage.h */,
+				5E78AA9F1239D9C300C5BD0A /* AIMediaBusMessage.m */,
+				5E78AAA01239D9C300C5BD0A /* AIMediaBusSource.h */,
+				5E78AAA11239D9C300C5BD0A /* AIMediaBusSource.m */,
+				5E78AAA21239D9C300C5BD0A /* AIMediaSession.h */,
+				5E78AAA31239D9C300C5BD0A /* AIMediaSession.m */,
+				5E78AAA41239D9C300C5BD0A /* AISoundLevel.h */,
+				5E78AAA51239D9C300C5BD0A /* AISoundLevel.m */,
+				5E78AAA61239D9C300C5BD0A /* AIVoiceController.h */,
+				5E78AAA71239D9C300C5BD0A /* AIVoiceController.m */,
+				5E78AAAD1239D9C300C5BD0A /* VVPurpleInitRun.h */,
+				5E78AAAE1239D9C300C5BD0A /* VVPurpleInitRun.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				5E78AD0D1239DCCF00C5BD0A /* QTKit.framework */,
+				5E78AD501239DD4A00C5BD0A /* Security.framework */,
+				5E78AD521239DD4A00C5BD0A /* SecurityFoundation.framework */,
+				5E78AD541239DD4A00C5BD0A /* SecurityInterface.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5E545D1B1239CD1B0003317F /* libglib.framework */,
+				5E545DB51239CDA90003317F /* libintl.framework */,
+				5E78AACC1239DA1C00C5BD0A /* libgmodule.framework */,
+				5E78AACE1239DA1C00C5BD0A /* libgobject.framework */,
+				5E78AAD01239DA1C00C5BD0A /* libgstapp.framework */,
+				5E78AAD21239DA1C00C5BD0A /* libgstaudio.framework */,
+				5E78AAD41239DA1C00C5BD0A /* libgstbase.framework */,
+				5E78AAD61239DA1C00C5BD0A /* libgstcontroller.framework */,
+				5E78AAD81239DA1C00C5BD0A /* libgstdataprotocol.framework */,
+				5E78AADA1239DA1C00C5BD0A /* libgstfarsight.framework */,
+				5E78AADC1239DA1C00C5BD0A /* libgstinterfaces.framework */,
+				5E78AADE1239DA1C00C5BD0A /* libgstnet.framework */,
+				5E78AAE01239DA1C00C5BD0A /* libgstnetbuffer.framework */,
+				5E78AAE21239DA1C00C5BD0A /* libgstreamer.framework */,
+				5E78AAE41239DA1C00C5BD0A /* libgstrtp.framework */,
+				5E78AAE61239DA1C00C5BD0A /* libgstrtsp.framework */,
+				5E78AAE81239DA1C00C5BD0A /* libgstsdp.framework */,
+				5E78AAEA1239DA1C00C5BD0A /* libgsttag.framework */,
+				5E78AAEC1239DA1C00C5BD0A /* libgstvideo.framework */,
+				5E78AAEE1239DA1C00C5BD0A /* libgthread.framework */,
+				5E78AAF01239DA1C00C5BD0A /* libjson-glib.framework */,
+				5E78AAF21239DA1C00C5BD0A /* libmeanwhile.framework */,
+				5E78AAF41239DA1C00C5BD0A /* libnice.framework */,
+				5E78AAF61239DA1D00C5BD0A /* liboil.framework */,
+				5E78AAF81239DA1D00C5BD0A /* libotr.framework */,
+				5E78AAFA1239DA1D00C5BD0A /* libpurple.framework */,
+				5E78AD5F1239DD9100C5BD0A /* libssl.dylib */,
+				5E4936B8123A151C00B053E0 /* libxml2.dylib */,
+			);
+			name = TestApp;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E78AAA81239D9C300C5BD0A /* oscar-adium.c */,
+				5E78AAAB1239D9C300C5BD0A /* ssl-openssl.c */,
+				5E78AAA91239D9C300C5BD0A /* oscar-adium.h */,
+				5E78AAAC1239D9C300C5BD0A /* ssl.c */,
+				5E78AAAA1239D9C300C5BD0A /* ssl-cdsa.c */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E78AA961239D91F00C5BD0A /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* TestApp-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				5E545D1D1239CD1B0003317F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TestApp;
+			productReference = 8D1107320486CEB800E47090 /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TestApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TestApp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				5E78AA971239D91F00C5BD0A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5E78AAAF1239D9C300C5BD0A /* AIMedia.m in Sources */,
+				5E78AAB01239D9C300C5BD0A /* AIMediaBusContext.m in Sources */,
+				5E78AAB11239D9C300C5BD0A /* AIMediaBusMessage.m in Sources */,
+				5E78AAB21239D9C300C5BD0A /* AIMediaBusSource.m in Sources */,
+				5E78AAB31239D9C300C5BD0A /* AIMediaSession.m in Sources */,
+				5E78AAB41239D9C300C5BD0A /* AISoundLevel.m in Sources */,
+				5E78AAB51239D9C300C5BD0A /* AIVoiceController.m in Sources */,
+				5E78AAB61239D9C300C5BD0A /* oscar-adium.c in Sources */,
+				5E78AAB71239D9C300C5BD0A /* ssl-cdsa.c in Sources */,
+				5E78AAB81239D9C300C5BD0A /* ssl-openssl.c in Sources */,
+				5E78AAB91239D9C300C5BD0A /* ssl.c in Sources */,
+				5E78AABA1239D9C300C5BD0A /* VVPurpleInitRun.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../adium/Frameworks\"",
+					"\"$(SRCROOT)/../VoiceVideoPorts2/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestApp_Prefix.pch;
+				INFOPLIST_FILE = "TestApp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TestApp;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../adium/Frameworks\"",
+					"\"$(SRCROOT)/../VoiceVideoPorts2/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TestApp_Prefix.pch;
+				INFOPLIST_FILE = "TestApp-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TestApp;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "Frameworks//**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/libxml2/**",
+					"Frameworks/libpurple.framework/Headers/**",
+					"Frameworks/libgstreamer.framework/Headers/**",
+					"Frameworks/**",
+					"Frameworks/libglib.framework/Headers/**",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-header-pad_max_install_names",
+					"-lsasl2",
+					"-lcrypto",
+					"-lssl",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "Frameworks//**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/opt/local/include/libxml2/**",
+					"Frameworks/libpurple.framework/Headers/**",
+					"Frameworks/libgstreamer.framework/Headers/**",
+					"Frameworks/**",
+					"Frameworks/libglib.framework/Headers/**",
+				);
+				OTHER_LDFLAGS = (
+					"-header-pad_max_install_names",
+					"-lsasl2",
+					"-lcrypto",
+					"-lssl",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
