@@ -2,6 +2,4 @@ This is based on work by Aqueous, and is an attempt at getting a VV (Voice and V
 
 One thing you'll need is to install libxml2 from MacPorts (will be fixing this shortly). As far as dependencies go, the rest should be provided by the included frameworks. The frameworks are culled from Adium, so I'm confident they are configured correctly. 
 
-Currently, the app builds and connects to a gmail account nicely. However, there is an error regarding the "valve" element from the bad plugins. 
-
 Visit our bug tracker for progress: http://github.com/gatlin/AVChat/issues
