@@ -1,3 +1,8 @@
+*** NOTE
+Until I stop being lazy and fix the framework search paths, you will have toedit this yourself in the Xcode project. It has also come to my attention that the libpurple from a normal adium distribution is required. 
+
+BUT I HAVEN'T STOPPED BEING LAZY SO HEED THIS.
+
 This is based on work by Aqueous, and is an attempt at getting a VV (Voice and Video) client based on libpurple running on Mac OS X. It builds but currently there are some gstreamer errors. The code is up here for the more experienced to explore; I'll keep working on it. 
 
 One thing you'll need is to install libxml2 from MacPorts (will be fixing this shortly). As far as dependencies go, the rest should be provided by the included frameworks. The frameworks are culled from Adium, so I'm confident they are configured correctly. 

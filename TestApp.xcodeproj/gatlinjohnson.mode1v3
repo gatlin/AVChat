@@ -330,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5E022720123ECCA0004B036B</string>
+										<string>5E02272D123ED08E004B036B</string>
 										<key>history</key>
 										<array>
 											<string>5E78ADDC1239F03A00C5BD0A</string>
@@ -540,8 +540,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
+		<string>5E02272F123ED08E004B036B</string>
+		<string>5E022730123ED08E004B036B</string>
 		<string>5E545D0B1239CCC60003317F</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/gatlinjohnson/Projects/AVChat/TestApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -759,7 +762,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -883,7 +886,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {728, 654}}</string>
 								<key>RubberWindowFrame</key>
-								<string>520 61 728 695 0 0 1280 778 </string>
+								<string>671 80 728 695 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -906,17 +909,17 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>5E7CB9A9123DDE2B006117A0</string>
+				<string>5E02272E123ED08E004B036B</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>520 61 728 695 0 0 1280 778 </string>
+			<string>671 80 728 695 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
