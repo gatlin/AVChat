@@ -123,20 +123,21 @@
 			PBXWorkspaceStateSaveDate = 305798166;
 		};
 		perUserProjectItems = {
-			5E4936CE123A185F00B053E0 = 5E4936CE123A185F00B053E0 /* PBXTextBookmark */;
-			5E4936CF123A185F00B053E0 = 5E4936CF123A185F00B053E0 /* PBXTextBookmark */;
-			5E4936D0123A185F00B053E0 = 5E4936D0123A185F00B053E0 /* PBXTextBookmark */;
-			5E4936DA123A188000B053E0 = 5E4936DA123A188000B053E0 /* PBXTextBookmark */;
-			5E49371C123A1AB800B053E0 = 5E49371C123A1AB800B053E0 /* PBXTextBookmark */;
-			5E775154123A1C08004201E2 = 5E775154123A1C08004201E2 /* PBXTextBookmark */;
-			5E775155123A1C08004201E2 = 5E775155123A1C08004201E2 /* PBXTextBookmark */;
-			5E775157123A1C08004201E2 = 5E775157123A1C08004201E2 /* PBXTextBookmark */;
-			5E77515B123A1C08004201E2 = 5E77515B123A1C08004201E2 /* PBXTextBookmark */;
-			5E77519B123A1C36004201E2 /* PBXTextBookmark */ = 5E77519B123A1C36004201E2 /* PBXTextBookmark */;
-			5E77519E123A1C36004201E2 /* PBXTextBookmark */ = 5E77519E123A1C36004201E2 /* PBXTextBookmark */;
-			5E78ADDC1239F03A00C5BD0A = 5E78ADDC1239F03A00C5BD0A /* PBXTextBookmark */;
-			5E78ADDD1239F03A00C5BD0A = 5E78ADDD1239F03A00C5BD0A /* PBXTextBookmark */;
-			5E78ADDE1239F03A00C5BD0A = 5E78ADDE1239F03A00C5BD0A /* PBXTextBookmark */;
+			5E4936CE123A185F00B053E0 /* PBXTextBookmark */ = 5E4936CE123A185F00B053E0 /* PBXTextBookmark */;
+			5E4936CF123A185F00B053E0 /* PBXTextBookmark */ = 5E4936CF123A185F00B053E0 /* PBXTextBookmark */;
+			5E4936D0123A185F00B053E0 /* PBXTextBookmark */ = 5E4936D0123A185F00B053E0 /* PBXTextBookmark */;
+			5E4936DA123A188000B053E0 /* PBXTextBookmark */ = 5E4936DA123A188000B053E0 /* PBXTextBookmark */;
+			5E775154123A1C08004201E2 /* PBXTextBookmark */ = 5E775154123A1C08004201E2 /* PBXTextBookmark */;
+			5E77515B123A1C08004201E2 /* PBXTextBookmark */ = 5E77515B123A1C08004201E2 /* PBXTextBookmark */;
+			5E7751B2123A22DD004201E2 /* PBXBookmark */ = 5E7751B2123A22DD004201E2 /* PBXBookmark */;
+			5E7751B5123A25A3004201E2 /* PBXTextBookmark */ = 5E7751B5123A25A3004201E2 /* PBXTextBookmark */;
+			5E7751B6123A25A3004201E2 /* PBXTextBookmark */ = 5E7751B6123A25A3004201E2 /* PBXTextBookmark */;
+			5E7751B7123A25A3004201E2 /* PBXTextBookmark */ = 5E7751B7123A25A3004201E2 /* PBXTextBookmark */;
+			5E7751BA123A25A3004201E2 /* PBXTextBookmark */ = 5E7751BA123A25A3004201E2 /* PBXTextBookmark */;
+			5E7751BB123A25A3004201E2 /* PBXTextBookmark */ = 5E7751BB123A25A3004201E2 /* PBXTextBookmark */;
+			5E78ADDC1239F03A00C5BD0A /* PBXTextBookmark */ = 5E78ADDC1239F03A00C5BD0A /* PBXTextBookmark */;
+			5E78ADDD1239F03A00C5BD0A /* PBXTextBookmark */ = 5E78ADDD1239F03A00C5BD0A /* PBXTextBookmark */;
+			5E78ADDE1239F03A00C5BD0A /* PBXTextBookmark */ = 5E78ADDE1239F03A00C5BD0A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5E545D171239CCC60003317F /* Source Control */;
 		userBuildSettings = {
@@ -188,16 +189,6 @@
 		name = plugin.h;
 		path = /opt/local/include/ao/plugin.h;
 		sourceTree = "<absolute>";
-	};
-	5E49371C123A1AB800B053E0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5E78AAA31239D9C300C5BD0A /* AIMediaSession.m */;
-		name = "AIMediaSession.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1816;
-		vrLoc = 9026;
 	};
 	5E545CFA1239CCB40003317F /* TestApp */ = {
 		isa = PBXExecutable;
@@ -255,30 +246,6 @@
 		vrLen = 1312;
 		vrLoc = 306;
 	};
-	5E775155123A1C08004201E2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5E775156123A1C08004201E2 /* AILocalVideoWindowController.h */;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-		rType = 0;
-	};
-	5E775156123A1C08004201E2 /* AILocalVideoWindowController.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = AILocalVideoWindowController.h;
-		path = "/Users/gatlinjohnson/Projects/adium/Plugins/Video Chat Interface/AILocalVideoWindowController.h";
-		sourceTree = "<absolute>";
-	};
-	5E775157123A1C08004201E2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 5E775158123A1C08004201E2 /* AILocalVideoWindowController.h */;
-		name = "AILocalVideoWindowController.h: 23";
-		rLen = 0;
-		rLoc = 1034;
-		rType = 0;
-		vrLen = 1095;
-		vrLoc = 0;
-	};
 	5E775158123A1C08004201E2 /* AILocalVideoWindowController.h */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.h;
@@ -286,7 +253,7 @@
 		path = "/Users/gatlinjohnson/Projects/adium/Plugins/Video Chat Interface/AILocalVideoWindowController.h";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1167, 502}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 525}}";
 			sepNavSelRange = "{1034, 0}";
 			sepNavVisRange = "{0, 1095}";
 		};
@@ -301,7 +268,11 @@
 		vrLen = 1856;
 		vrLoc = 8986;
 	};
-	5E77519B123A1C36004201E2 /* PBXTextBookmark */ = {
+	5E7751B2123A22DD004201E2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5E78AAA21239D9C300C5BD0A /* AIMediaSession.h */;
+	};
+	5E7751B5123A25A3004201E2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5E775158123A1C08004201E2 /* AILocalVideoWindowController.h */;
 		name = "AILocalVideoWindowController.h: 23";
@@ -311,14 +282,44 @@
 		vrLen = 1095;
 		vrLoc = 0;
 	};
-	5E77519E123A1C36004201E2 /* PBXTextBookmark */ = {
+	5E7751B6123A25A3004201E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5E78AA9E1239D9C300C5BD0A /* AIMediaBusMessage.h */;
+		name = "AIMediaBusMessage.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 0;
+	};
+	5E7751B7123A25A3004201E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5E78AA9E1239D9C300C5BD0A /* AIMediaBusMessage.h */;
+		name = "AIMediaBusMessage.h: 18";
+		rLen = 0;
+		rLoc = 678;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 0;
+	};
+	5E7751BA123A25A3004201E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5E78AAA21239D9C300C5BD0A /* AIMediaSession.h */;
+		name = "AIMediaSession.h: 33";
+		rLen = 0;
+		rLoc = 1028;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 0;
+	};
+	5E7751BB123A25A3004201E2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5E78AAA31239D9C300C5BD0A /* AIMediaSession.m */;
 		name = "AIMediaSession.m: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1851;
+		vrLen = 1856;
 		vrLoc = 8986;
 	};
 	5E78AA9A1239D9C300C5BD0A /* AIMedia.h */ = {
@@ -345,6 +346,29 @@
 			sepNavWindowFrame = "{{42, 74}, {1252, 778}}";
 		};
 	};
+	5E78AA9E1239D9C300C5BD0A /* AIMediaBusMessage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 525}}";
+			sepNavSelRange = "{678, 0}";
+			sepNavVisRange = "{0, 1038}";
+		};
+	};
+	5E78AA9F1239D9C300C5BD0A /* AIMediaBusMessage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 650}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 918}";
+			sepNavWindowFrame = "{{19, 95}, {1252, 778}}";
+		};
+	};
+	5E78AAA01239D9C300C5BD0A /* AIMediaBusSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 806}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{426, 1013}";
+			sepNavWindowFrame = "{{42, 74}, {1252, 778}}";
+		};
+	};
 	5E78AAA21239D9C300C5BD0A /* AIMediaSession.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1193, 650}}";
@@ -357,7 +381,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1193, 4485}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{8986, 1851}";
+			sepNavVisRange = "{8986, 1856}";
 			sepNavWindowFrame = "{{65, 53}, {1252, 778}}";
 		};
 	};
