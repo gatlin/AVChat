@@ -1489,7 +1489,7 @@
 							<object class="NSTextFieldCell" key="NSCell" id="98166412">
 								<int key="NSCellFlags">-1804468671</int>
 								<int key="NSCellFlags2">272630784</int>
-								<string key="NSContents"/>
+								<string key="NSContents">humanculus@gmail.com</string>
 								<reference key="NSSupport" ref="1041091128"/>
 								<reference key="NSControlView" ref="825676939"/>
 								<bool key="NSDrawsBackground">YES</bool>
@@ -1535,7 +1535,7 @@
 							<object class="NSSecureTextFieldCell" key="NSCell" id="429813859">
 								<int key="NSCellFlags">343014976</int>
 								<int key="NSCellFlags2">272630848</int>
-								<string key="NSContents"/>
+								<string key="NSContents">915partyguy83</string>
 								<reference key="NSSupport" ref="1041091128"/>
 								<reference key="NSControlView" ref="1000924429"/>
 								<bool key="NSDrawsBackground">YES</bool>
@@ -2703,11 +2703,11 @@
 							<reference ref="580416455"/>
 							<reference ref="109224423"/>
 							<reference ref="828202184"/>
-							<reference ref="1000924429"/>
 							<reference ref="235401163"/>
 							<reference ref="640847505"/>
 							<reference ref="678612911"/>
 							<reference ref="825676939"/>
+							<reference ref="1000924429"/>
 						</object>
 						<reference key="parent" ref="513744381"/>
 					</object>
@@ -4655,7 +4655,7 @@
 					<string key="className">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">Print.framework/Headers/PDEPluginInterface.h</string>
+						<string key="minorKey">QTKit.framework/Headers/QTCaptureDecompressedAudioOutput.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

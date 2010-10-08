@@ -459,6 +459,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/Developer/SDKs/MacOSX10.6.sdk/usr/include/libxml2,
+					"Frameworks/libpurple.framework/Headers/**",
+					"Frameworks/libgstreamer.framework/Headers/**",
+					"Frameworks/**",
+					"Frameworks/libglib.framework/Headers/**",
+				);
 				INFOPLIST_FILE = "TestApp-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = TestApp;
